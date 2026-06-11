@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>에코 퀴-즈 · Coming Soon</title>
+  <meta name="description" content="에코 퀴-즈 — 곧 찾아옵니다." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧠</text></svg>" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="card">
+    <div class="badge">COMING SOON</div>
+    <h1>에코 퀴-즈</h1>
+    <p class="tagline">새로운 퀴즈 경험을 준비하고 있습니다.<br />곧 만나요. 👋</p>
+
+    <form class="notify" onsubmit="return notify(event)">
+      <input type="email" placeholder="이메일을 남겨주세요" required aria-label="이메일" />
+      <button type="submit">알림 받기</button>
+    </form>
+    <p class="note" id="note"></p>
+
+    <footer>
+      <span>© <span id="year"></span> 에코 퀴-즈</span>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    function notify(e) {
+      e.preventDefault();
+      document.getElementById('note').textContent = '감사합니다! 준비되면 가장 먼저 알려드릴게요. ✅';
+      e.target.reset();
+      return false;
+    }
+  </script>
+</body>
+</html>
