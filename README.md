@@ -33,11 +33,11 @@ scripts/build-questions.py  # 엑셀 → questions.json 변환
 
 ## 데이터 갱신
 
-`echo_quiz_100.xlsx`를 수정한 뒤:
+`echo_quiz_100_v2.xlsx`를 수정한 뒤:
 
 ```bash
 pip install openpyxl
-python3 scripts/build-questions.py ../echo_quiz_100.xlsx questions.json
+python3 scripts/build-questions.py ../echo_quiz_100_v2.xlsx questions.json
 ```
 
 ## 리더보드 (Upstash Redis)

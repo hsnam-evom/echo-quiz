@@ -3,99 +3,99 @@
 "id": 1,
 "type": "A1",
 "category": "측정 원리",
-"question": "PISA 방법으로 역류량을 계산할 때 사용하는 핵심 물리 법칙은?",
-"answer": "오리피스 앞 반구형 등속도면에서 유량이 보존된다",
+"question": "PISA 방법이 역류 유량을 계산할 수 있는 이유는?",
+"answer": "오리피스 앞 반구형 등속도면에서 유량이 보존되기 때문",
 "distractors": [
-"오리피스 양측 압력차가 속도의 제곱에 비례한다",
-"혈류 속도는 혈관 단면적에 반비례한다",
-"역류 제트의 색 면적이 역류 용적에 비례한다"
+"오리피스 양측 압력차가 속도의 제곱에 비례하기 때문",
+"역류 제트 면적이 역류 용적에 비례하기 때문",
+"혈류 속도가 오리피스 면적에 반비례하기 때문"
 ],
-"explanation": "PISA는 오리피스로 수렴하는 혈류가 동심 반구형 등속도 쉘을 형성하며, 이 면에서 유량이 보존된다는 원리에 기반한다.\nRegurgitant Flow = 2πr² × Va, EROA = 6.28 × r² × Va / Peak CWD velocity.\n②는 Bernoulli 방정식(ΔP=4v²)으로 PISA 원리가 아님.\n(2017 Native Valvular Regurgitation, §III.B.c)"
+"explanation": "PISA는 역류 오리피스로 수렴하는 혈류가 동심 반구형 등속도 쉘을 형성하며, 이 면에서 유량이 보존된다는 원리(유량 연속 방정식)에 기반한다.\nRegurgitant Flow = 2πr² × Va\nEROA = 6.28 × r² × Va / Peak CWD velocity\n②는 Bernoulli 방정식(ΔP=4v²)으로 PISA 원리가 아님. ③은 color jet area 방법의 개념.\n(2017 Native Valvular Regurgitation, §III.B.c)"
 },
 {
 "id": 2,
 "type": "A1",
 "category": "측정 원리",
-"question": "연속 방정식에서 LVOT diameter 측정 오류가 AVA 계산에 가장 큰 영향을 미치는 이유는?",
+"question": "연속 방정식에서 LVOT diameter 오류가 AVA 계산에 가장 크게 영향을 미치는 이유는?",
 "answer": "diameter가 제곱되어 CSA 계산에 사용되기 때문",
 "distractors": [
-"diameter가 CWD 속도 측정에 직접 영향을 주기 때문",
-"diameter 오류가 mean gradient 계산에 전파되기 때문",
-"LVOT velocity와 diameter를 다른 위치에서 측정하기 때문"
+"diameter 오류가 VTI_AV 측정에 직접 전파되기 때문",
+"diameter 오류가 LVOT velocity 측정에 직접 전파되기 때문",
+"diameter가 mean gradient 계산의 분모로 사용되기 때문"
 ],
-"explanation": "AVA = (CSA_LVOT × VTI_LVOT) / VTI_AV, CSA_LVOT = π(D/2)². diameter가 제곱되므로 5~8% 오류가 AVA에 크게 증폭된다.\n(2017 AS Focused Update, Aortic Valve Area section; 2009 Valve Stenosis §B.1.3)"
+"explanation": "AVA = (CSA_LVOT × VTI_LVOT) / VTI_AV, CSA_LVOT = π(D/2)². diameter가 제곱되므로 5~8% 오류가 CSA와 AVA에 크게 증폭된다. 이것이 연속 방정식의 가장 큰 오차 원인이다.\n(2017 AS Focused Update, Aortic Valve Area section; 2009 Valve Stenosis §B.1.3)"
 },
 {
 "id": 3,
 "type": "A1",
 "category": "측정 원리",
-"question": "PHT 공식 MVA=220/PHT에서 PHT가 길수록 MVA가 작은 이유는?",
-"answer": "협착이 심할수록 LA-LV 압력 평형에 더 오래 걸리기 때문",
+"question": "MS에서 PHT가 길수록 MVA(= 220/PHT)가 작은 이유는?",
+"answer": "협착이 심할수록 LA-LV 압력 평형에 시간이 더 걸리기 때문",
 "distractors": [
-"협착이 심할수록 LV compliance가 낮아져 압력이 빨리 떨어지기 때문",
-"협착이 심할수록 LA가 확장되어 압력 감쇠가 느려지기 때문",
-"협착이 심할수록 이완기 심박수가 낮아지기 때문"
+"협착이 심할수록 LV compliance가 낮아지기 때문",
+"협착이 심할수록 LA 확장으로 압력 감쇠가 늦어지기 때문",
+"협착이 심할수록 심방 수축력이 감소하기 때문"
 ],
-"explanation": "PHT는 최대 E velocity에서 압력이 절반으로 떨어지는 시간이다. 판막이 좁을수록 LA-LV 압력 평형이 오래 걸려 PHT가 길어지고 MVA = 220/PHT에서 값이 작아진다.\n주의: LV compliance 변화, concurrent AR, PBMV 직후에는 신뢰도 저하.\n(2009 Valve Stenosis §B.1.4; 2023 RHD)"
+"explanation": "PHT는 최대 E velocity에서 압력이 절반으로 떨어지는 시간이다. 판막이 좁을수록 LA-LV 압력 평형에 시간이 오래 걸려 PHT가 길어지고 MVA = 220/PHT에서 값이 작아진다.\n주의: LV compliance 변화, concurrent AR, PBMV 직후에는 신뢰도 저하.\n(2009 Valve Stenosis §B.1.4; 2023 RHD)"
 },
 {
 "id": 4,
 "type": "A1",
 "category": "측정 원리",
-"question": "간략 Bernoulli 방정식에서 mean gradient를 올바르게 계산하는 방법은?",
+"question": "mean gradient를 올바르게 계산하는 방법은?",
 "answer": "박출 시간 동안 순간 압력차(instantaneous gradients)를 평균",
 "distractors": [
-"peak velocity를 4v²에 대입하여 peak gradient로 계산",
+"peak velocity를 4v²에 대입하여 계산",
 "mean velocity를 4v²에 대입하여 계산",
 "peak gradient를 박출 시간으로 나누어 계산"
 ],
-"explanation": "Mean gradient = 박출 기간 전체 순간 압력차의 평균이다. CWD tracing 아래 면적을 박출 시간으로 나눠 기계가 자동 계산한다. mean velocity를 공식에 넣으면 오류가 발생한다.\n(2017 AS Focused Update, Mean Pressure Gradient section)"
+"explanation": "Mean gradient = 박출 기간 전체 순간 압력차의 평균이다. CWD tracing 아래 면적을 박출 시간으로 나눠 계산한다. mean velocity를 공식에 넣으면 오류가 발생한다.\n(2017 AS Focused Update, Mean Pressure Gradient section)"
 },
 {
 "id": 5,
 "type": "A1",
 "category": "측정 원리",
-"question": "AR CWD에서 PHT가 짧을수록 AR이 심하다고 보는 이유는?",
-"answer": "AR이 심할수록 LV 이완기 압력이 빠르게 상승하여 대동맥-LV 압력차가 빨리 줄기 때문",
+"question": "AR에서 PHT가 짧을수록 역류가 심하다고 보는 이유는?",
+"answer": "역류가 클수록 LV 이완기 압력이 빠르게 상승해 대동맥-LV 압력차가 빨리 사라지기 때문",
 "distractors": [
-"AR이 심할수록 대동맥 이완기 압력이 빠르게 상승하기 때문",
-"AR이 심할수록 심박수가 빨라져 이완기가 단축되기 때문",
-"AR이 심할수록 LV compliance가 높아져 압력이 빨리 평형을 이루기 때문"
+"역류가 클수록 대동맥 이완기 압력이 빠르게 상승하기 때문",
+"역류가 클수록 심박수가 빨라져 이완기가 단축되기 때문",
+"역류가 클수록 LV compliance가 높아져 압력이 빨리 평형에 도달하기 때문"
 ],
-"explanation": "AR이 클수록 이완기에 더 많은 혈류가 LV로 들어와 LV 이완기 압력이 빠르게 상승하므로 대동맥-LV 압력차가 빨리 줄어들어 PHT가 짧아진다.\nAR PHT <200 ms → severe, >500 ms → mild (MS PHT와 방향이 반대).\n(2017 Native Valvular Regurgitation, Table 11)"
+"explanation": "AR이 클수록 이완기에 더 많은 혈류가 LV로 들어와 LV 이완기 압력이 빠르게 상승한다. 대동맥-LV 압력차가 빨리 줄어들어 PHT가 짧아진다.\nAR PHT <200 ms → severe, >500 ms → mild (MS PHT와 방향이 반대).\n(2017 Native Valvular Regurgitation, Table 11)"
 },
 {
 "id": 6,
 "type": "A1",
 "category": "측정 원리",
-"question": "Simpson biplane법에서 foreshortening이 발생하면 나타나는 오류는?",
+"question": "Simpson biplane법에서 foreshortening이 발생했을 때 나타나는 오류는?",
 "answer": "LV 길이가 짧게 측정되어 EDV/ESV가 과소평가된다",
 "distractors": [
 "LV 벽 두께가 두껍게 측정되어 EF가 과소평가된다",
-"apical 혈류가 더 포함되어 EDV가 과대평가된다",
-"LV 면적이 과대평가되어 EF가 낮아진다"
+"apical segment가 제외되어 strain 값이 과대평가된다",
+"LV 단면적이 과대평가되어 EDV가 증가한다"
 ],
-"explanation": "Foreshortening: apical view에서 진짜 LV apex까지 포함되지 않아 심실 길이가 짧게 측정 → EDV/ESV 과소평가. EF는 상대적으로 과대평가될 수 있다.\n예방: depth를 줄여 LV만 화면에 꽉 차게, 진짜 apex가 화면 상단에 위치하도록.\n(2015 Chamber Quantification, Table 1; 2025 Strain Guideline, Table 2)"
+"explanation": "Foreshortening: apical view에서 진짜 LV apex가 포함되지 않아 심실 길이가 짧게 측정 → EDV/ESV 과소평가. EF는 상대적으로 과대평가될 수 있다.\n예방: depth를 줄여 LV만 화면에 꽉 차게, 진짜 apex가 화면 상단에 위치하도록.\n(2015 Chamber Quantification, Table 1; 2025 Strain Guideline, Table 2)"
 },
 {
 "id": 7,
 "type": "A2",
 "category": "파라미터 생리 의미",
-"question": "TDI e' velocity가 전부하(preload) 변화에 비교적 덜 영향받는 이유는?",
+"question": "TDI e' velocity가 전부하(preload)에 비교적 덜 영향받는 이유는?",
 "answer": "심근의 능동적 이완(active relaxation) 속도를 반영하기 때문",
 "distractors": [
 "이완기 초기 LA-LV 압력차를 직접 반영하기 때문",
 "심방 수축력을 주로 반영하기 때문",
-"심실 내 혈압이 아닌 심근 변위를 측정하기 때문"
+"LV 수축기 기능에 의해 결정되기 때문"
 ],
-"explanation": "e' velocity는 LV 능동적 이완(ATP 의존 과정)의 지표이다. 이완 자체는 전부하 변화의 영향을 비교적 덜 받는다. E velocity는 전부하에 직접 비례하여 변하므로, E/e' ratio로 전부하 효과를 보정하여 LAP를 추정한다.\n감소 기준: septal ≤6, lateral ≤7, average ≤6.5 cm/s.\n(2025 LV Diastolic Update, Table 4)"
+"explanation": "e' velocity는 LV 능동적 이완(ATP 의존 과정)의 지표이다. 이완 자체는 전부하 변화의 영향을 비교적 덜 받는다. 반면 E velocity는 전부하에 직접 비례하므로, E/e' ratio로 전부하 효과를 보정하여 LAP를 추정한다.\n감소 기준: septal ≤6, lateral ≤7, average ≤6.5 cm/s.\n(2025 LV Diastolic Update, Table 4)"
 },
 {
 "id": 8,
 "type": "A2",
 "category": "파라미터 생리 의미",
-"question": "LA reservoir strain(LARS)이 LV 충만 압력의 지표로 활용되는 생리적 근거는?",
-"answer": "LA가 LV 수축기에 저장고 역할을 하며 충만 압력을 누적 반영하기 때문",
+"question": "LARS(LA reservoir strain)가 LV 충만 압력의 지표로 활용되는 생리적 근거는?",
+"answer": "LA가 LV 수축기에 저장고로 팽창하며 만성 충만 압력을 누적 반영하기 때문",
 "distractors": [
 "LA가 이완기에 능동적으로 LV로 혈액을 펌핑하기 때문",
 "LA strain이 폐동맥 수축기 압력과 직접 비례하기 때문",
@@ -107,14 +107,14 @@
 "id": 9,
 "type": "A2",
 "category": "파라미터 생리 의미",
-"question": "TAPSE가 RV 전체 기능을 완전히 반영하지 못하는 주된 이유는?",
-"answer": "RV 자유벽의 종방향 운동만을 측정하기 때문",
+"question": "TAPSE가 RV 전체 기능을 과소평가하는 경우가 있는 이유는?",
+"answer": "RV 자유벽 종방향 운동만을 측정하기 때문",
 "distractors": [
-"M-mode 측정이어서 transducer 각도에 따라 변하기 때문",
 "RV 용적 변화를 직접 측정하지 않기 때문",
-"심장수술 후에만 신뢰도가 떨어지기 때문"
+"측정이 transducer 각도에 영향받기 때문",
+"심박수 변화에 민감하게 반응하기 때문"
 ],
-"explanation": "TAPSE는 삼첨판륜의 수축기 종방향 이동(mm)만 측정한다. RV 수축은 종방향+방사방향+RVOT 수축을 포함하지만 TAPSE는 그 중 일부만 반영한다. 심장수술 후에는 심막 유착으로 종방향 운동이 제한되어 TAPSE가 RV 기능을 과소평가한다.\n(2015 Chamber Quantification §8.2; 2025 Right Heart in PH)"
+"explanation": "TAPSE는 삼첨판륜의 수축기 종방향 이동(mm)만 측정한다. RV 수축은 종방향+방사방향+RVOT 수축을 포함하지만 TAPSE는 종방향만 반영한다. 특히 심장수술 후 심막 유착으로 종방향 운동이 제한되면 TAPSE가 RV 기능을 과소평가한다.\n(2015 Chamber Quantification §8.2; 2025 Right Heart in PH)"
 },
 {
 "id": 10,
@@ -123,7 +123,7 @@
 "question": "E/A ratio만으로 이완기능 등급 판단이 어려운 핵심 이유는?",
 "answer": "정상 이완과 pseudonormal 이완 모두 E/A 0.8–2.0 범위에 있을 수 있기 때문",
 "distractors": [
-"E/A ratio는 심박수 변화에 지나치게 민감하기 때문",
+"E/A ratio가 심박수 변화에 지나치게 민감하기 때문",
 "E velocity 측정에 기술적 오류가 많기 때문",
 "노화에 따라 E/A ratio가 변하지 않기 때문"
 ],
@@ -140,7 +140,7 @@
 "GLS는 후부하(afterload) 변화에 완전히 독립적이기 때문",
 "GLS는 심근 두께 변화와 용적 변화를 모두 반영하기 때문"
 ],
-"explanation": "GLS는 심내막하(subendocardial) 근섬유가 담당하는 종방향 변형률이다. 심내막하층은 관류에 가장 취약하여 허혈·독성·섬유화에 먼저 반응한다. LVEF는 종+원주+방사 방향 총합이므로, 종방향 기능 저하를 다른 방향이 보상하면 EF는 정상으로 보일 수 있다.\n정상 GLS: more negative than −18%.\n(2025 Strain Guideline, Clinical Consensus Statements; 2015 Chamber Quantification §2.3)"
+"explanation": "GLS는 심내막하(subendocardial) 근섬유가 담당하는 종방향 변형률이다. 심내막하층은 관류에 가장 취약하여 허혈·독성·섬유화에 먼저 반응한다. LVEF는 종+원주+방사 방향의 총합이므로, 종방향 기능 저하를 다른 방향이 보상하면 EF는 정상으로 보일 수 있다.\n정상 GLS: more negative than −18%.\n(2025 Strain Guideline, Clinical Consensus Statements; 2015 Chamber Quantification §2.3)"
 },
 {
 "id": 12,
@@ -151,35 +151,35 @@
 "distractors": [
 "TAPSE와 PASP가 항상 일정한 반비례 관계를 유지하기 때문",
 "두 파라미터 모두 M-mode로 동시에 측정 가능하기 때문",
-"PASP가 높을수록 TAPSE가 보상적으로 증가하는 관계이기 때문"
+"PASP가 높을수록 TAPSE가 보상적으로 증가하기 때문"
 ],
-"explanation": "TAPSE/PASP = RV contractile response / pulmonary afterload. RV가 주어진 폐동맥 afterload에 얼마나 효율적으로 대응하는지를 나타낸다.\n정상: ~0.5–0.7 mm/mmHg. <0.55 mm/mmHg = 비정상. <0.3–0.4 mm/mmHg = RV-PA uncoupling, 사망률 증가.\n(2025 Right Heart in PH, TAPSE/PASP section)"
+"explanation": "TAPSE/PASP = RV contractile response / pulmonary afterload. RV가 주어진 폐동맥 afterload에 얼마나 효율적으로 대응하는지를 나타낸다.\n정상: ~0.5–0.7 mm/mmHg. <0.55 = 비정상. <0.3–0.4 = RV-PA uncoupling, 사망률 증가.\n(2025 Right Heart in PH, TAPSE/PASP section)"
 },
 {
 "id": 13,
 "type": "A3",
 "category": "파형 생성 원리",
-"question": "제한성 충만패턴(Grade 3)에서 E wave deceleration time이 짧아지는 이유는?",
+"question": "Grade 3 diastolic dysfunction에서 E wave deceleration time이 짧아지는 이유는?",
 "answer": "LV 이완기 압력이 높아 초기 충만 후 LA-LV 압력차가 빨리 사라지기 때문",
 "distractors": [
 "LA 압력이 낮아 혈류가 빠르게 LV로 유입되기 때문",
 "LV compliance가 높아 혈액이 빠르게 충만되기 때문",
 "LV 이완이 빨라 LA 압력이 빨리 떨어지기 때문"
 ],
-"explanation": "제한성 충만(Grade 3): LV compliance가 매우 낮고 이완기 압력이 높다. 초기에 빠르게 충만된 후 LV 압력이 빠르게 LA 압력과 같아져 혈류가 급격히 멈춤 → 짧은 deceleration time.\nGrade 3: E/A ≥2, deceleration time <160 ms, IVRT <50 ms → markedly elevated LAP.\n(2025 LV Diastolic Update)"
+"explanation": "제한성 충만(Grade 3): LV compliance가 매우 낮고 이완기 압력이 높다. 초기에 빠르게 충만된 후 LV 압력이 빠르게 LA 압력과 같아져 혈류가 급격히 멈춤 → 짧은 deceleration time.\nGrade 3: E/A ≥2, deceleration time <160 ms, IVRT <50 ms.\n(2025 LV Diastolic Update)"
 },
 {
 "id": 14,
 "type": "A3",
 "category": "파형 생성 원리",
 "question": "Cardiac tamponade 시 흡기에 승모판 E wave가 감소하는 이유는?",
-"answer": "흡기 시 RV가 팽창하며 IVS가 좌측으로 밀려 LV 충만이 감소하기 때문",
+"answer": "흡기 시 RV 팽창으로 IVS가 좌측으로 밀려 LV 충만 용적이 감소하기 때문",
 "distractors": [
 "흡기 시 폐정맥 혈류 자체가 감소하기 때문",
 "흡기 시 LA 압력이 급격히 상승하기 때문",
 "흡기 시 심박수가 증가하여 이완기가 단축되기 때문"
 ],
-"explanation": "Tamponade에서 심막이 고정되어 전체 심장 용적이 제한된다. 흡기 시 흉강 내압 감소 → 우심 정맥 환류 증가 → RV 팽창 → IVS 좌측 이동 → LV 충만 용적 감소 → E velocity 감소 (ventricular interdependence). 이것이 pulsus paradoxus의 기전이다.\n(2013 Pericardial Multimodality, Cardiac Tamponade section)"
+"explanation": "Tamponade에서 심막이 고정되어 전체 심장 용적이 제한된다. 흡기 시 흉강 내압 감소 → 우심 정맥 환류 증가 → RV 팽창 → IVS 좌측 이동 → LV 충만 감소 → E velocity 감소 (ventricular interdependence).\n(2013 Pericardial Multimodality, Cardiac Tamponade section)"
 },
 {
 "id": 15,
@@ -205,33 +205,33 @@
 "흡기 시 폐동맥 압력이 증가하여 RV 충만이 늘어나기 때문",
 "흡기 시 삼첨판이 더 넓게 열려 우심 충만이 증가하기 때문"
 ],
-"explanation": "CP에서 두꺼운 심막이 intrathoracic-intracardiac pressure dissociation을 일으킨다. 흡기 시 폐정맥에는 압력 감소가 전달되지만 심강 내에는 전달되지 않아 LV 충만이 줄고, 동시에 우심 환류 증가로 심실간 상호의존성이 발생한다.\nCP: 흡기 시 mitral E >25% 감소, tricuspid E >40% 증가가 특징.\n(2013 Pericardial Multimodality, Table 8; 2025 LV Diastolic Update §F)"
+"explanation": "CP에서 두꺼운 심막이 intrathoracic-intracardiac pressure dissociation을 일으킨다. 흡기 시 폐정맥에는 압력 감소가 전달되지만 심강 내에는 전달되지 않아 LV 충만이 줄고, 동시에 우심 환류 증가로 심실간 상호의존성이 발생한다.\nCP: 흡기 시 mitral E >25% 감소, tricuspid E >40% 증가.\n(2013 Pericardial Multimodality, Table 8; 2025 LV Diastolic Update §F)"
 },
 {
 "id": 17,
 "type": "B1",
 "category": "측정 뷰·위치",
-"question": "LVOT diameter 측정 시 권고되는 뷰와 시점은?",
-"answer": "parasternal long-axis view, 수축기 중반(mid-systole)",
+"question": "LVOT diameter 측정에 권고되는 뷰와 시점은?",
+"answer": "parasternal long-axis view, mid-systole",
 "distractors": [
-"apical 5-chamber view, 수축기 초기(early-systole)",
-"parasternal short-axis view, 이완기 말(end-diastole)",
-"apical long-axis view, 수축기 최대(peak-systole)"
+"apical 5-chamber view, early-systole",
+"parasternal short-axis view, end-diastole",
+"apical long-axis view, peak-systole"
 ],
-"explanation": "LVOT diameter: parasternal long-axis view, mid-systole. 측정 위치: 대동맥판막면에 평행, 판막 오리피스에서 0.5–1.0 cm 근위부, inner-to-inner. Zoom mode, ≥3박동 평균(부정맥 ≥5박동).\n(2017 AS Focused Update, Figure 5; 2009 Valve Stenosis)"
+"explanation": "LVOT diameter: parasternal long-axis view, mid-systole. 측정 위치: 대동맥판막면에 평행, 판막 오리피스에서 0.5–1.0 cm 근위부, inner-to-inner. Zoom mode, ≥3박동 평균(부정맥 ≥5박동). LVOT는 실제 타원형이므로 3D/CT가 더 정확한 CSA를 제공한다.\n(2017 AS Focused Update, Figure 5; 2009 Valve Stenosis)"
 },
 {
 "id": 18,
 "type": "B1",
 "category": "측정 뷰·위치",
 "question": "AS jet velocity를 여러 acoustic window에서 측정해야 하는 이유는?",
-"answer": "빔과 혈류의 정렬이 창마다 달라 가장 높은 속도를 찾아야 하기 때문",
+"answer": "대동맥 jet 방향이 환자마다 달라 창마다 빔 정렬이 달라지기 때문",
 "distractors": [
-"판막 형태를 각 창에서 함께 평가해야 하기 때문",
+"창마다 다른 판막 구조를 동시에 평가해야 하기 때문",
 "각 창에서 side lobe artifact를 상호 보완하기 때문",
-"TEE 소견과 비교하여 검증하기 위해서"
+"TEE 소견과 비교하여 결과를 검증하기 위해서"
 ],
-"explanation": "Doppler: 빔과 혈류의 각도가 0°에 가까울수록 정확하다. 대동맥 jet 방향은 환자마다 달라 apical, right parasternal, suprasternal, subcostal 창에서의 정렬이 다를 수 있다. 모든 창에서 측정하고 가장 높은 속도를 보고. Non-imaging CWD transducer 사용이 강력히 권고된다.\n(2017 AS Focused Update, Peak Jet Velocity section)"
+"explanation": "Doppler: 빔과 혈류의 각도가 0°에 가까울수록 정확하다. 대동맥 jet 방향은 환자마다 달라 apical, right parasternal, suprasternal, subcostal 창에서의 빔 정렬이 다를 수 있다. 모든 창에서 측정하고 가장 높은 속도를 보고. Non-imaging CWD transducer 사용이 강력히 권고된다.\n(2017 AS Focused Update, Peak Jet Velocity section)"
 },
 {
 "id": 19,
@@ -240,9 +240,9 @@
 "question": "RV strain 측정 시 RV-focused apical 4-chamber view를 사용하는 이유는?",
 "answer": "RV 크기를 최대화하여 더 정확한 speckle 추적이 가능하기 때문",
 "distractors": [
-"표준 A4C보다 LV와의 간섭이 적어지기 때문",
-"이 뷰에서만 RV 자유벽 3세그먼트를 분리할 수 있기 때문",
-"이 뷰에서 측정한 RVFWLS 값이 표준 A4C보다 낮게 나오기 때문"
+"표준 A4C보다 RV free wall과 IVS의 각도가 더 유리하기 때문",
+"표준 A4C에서 RV가 LV와 겹쳐 추적이 불가능하기 때문",
+"이 뷰에서만 RV strain 값이 정상 범위 내에 들어오기 때문"
 ],
 "explanation": "RV-focused view: 표준 A4C에서 반시계 방향 회전+내측 기울임으로 RV를 중심에 두고 크기 최대화. 이 뷰에서 RVFWLS가 표준 A4C보다 더 정확(−21.9% vs −18.8%).\nROI: RVFW+IVS(6 세그먼트) 또는 RVFW만(3 세그먼트 = RVFWLS).\n(2025 Strain Guideline, Figure 10, 11)"
 },
@@ -251,11 +251,11 @@
 "type": "B1",
 "category": "측정 뷰·위치",
 "question": "PISA 측정 시 color Doppler baseline을 역류 방향으로 이동(shift)하는 이유는?",
-"answer": "역류 오리피스 근처에 반구형 aliasing contour를 명확히 형성하기 위해",
+"answer": "역류 오리피스 근처에 반구형 aliasing contour를 형성하기 위해",
 "distractors": [
-"역류 신호를 배경으로부터 분리하기 위해",
-"Nyquist limit을 높여 더 빠른 속도를 측정하기 위해",
-"color Doppler의 전체 노이즈 수준을 낮추기 위해"
+"역류 신호를 배경 혈류로부터 분리하기 위해",
+"Nyquist limit을 높여 고속 역류를 측정하기 위해",
+"color Doppler 전체 노이즈를 줄이기 위해"
 ],
 "explanation": "Baseline을 역류 방향으로 shift하면 Nyquist limit이 낮아지고 aliasing이 역류 오리피스 가까이에서 발생 → 명확한 반구형 PISA contour 형성. Variance color mapping을 끄는 것도 권고.\nPISA radius: aliasing contour에서 역류 오리피스까지의 거리.\n(2017 Native Valvular Regurgitation, §III.B.c)"
 },
@@ -263,12 +263,12 @@
 "id": 21,
 "type": "B2",
 "category": "측정 타이밍",
-"question": "GLS 측정 시 apical long-axis (ALAX) view를 첫 번째로 촬영하는 이유는?",
-"answer": "대동맥판막 개폐를 확인하여 end-systole(AVC) 기준점을 설정하기 위해",
+"question": "GLS 측정 시 ALAX view를 첫 번째로 촬영하는 이유는?",
+"answer": "대동맥판막 개폐로 end-systole(AVC) 기준점을 설정하기 위해",
 "distractors": [
-"ALAX에서 apical strain 값이 가장 정확하게 측정되기 때문",
-"A4C, A2C 이전에 조직 tracking을 초기화해야 하기 때문",
-"ALAX에서 LV foreshortening이 가장 적게 발생하기 때문"
+"ALAX에서 apical strain이 가장 정확하게 측정되기 때문",
+"A4C, A2C 이전에 조직 tracking을 초기화하기 위해",
+"ALAX에서 LV foreshortening이 가장 적기 때문"
 ],
 "explanation": "GLS 측정에서 end-systole(AVC) 타이밍을 정확히 잡는 것이 중요하다. ALAX view에서 대동맥판막이 시야에 들어와 AVC를 정확히 식별 → peak longitudinal strain 측정 기준. 이후 A2C, A4C 순으로 촬영, 3개 뷰의 평균이 GLS이다.\n(2025 Strain Guideline; 2015 Chamber Quantification §2.3)"
 },
@@ -276,25 +276,25 @@
 "id": 22,
 "type": "B2",
 "category": "측정 타이밍",
-"question": "AF 환자에서 AS Doppler 측정 시 몇 박동을 평균해야 하는가?",
-"answer": "최소 5박동 이상 평균",
+"question": "AF 환자에서 AS Doppler 측정 시 최소 5박동을 평균하는 이유는?",
+"answer": "박동마다 전부하가 달라 transvalvular gradient가 크게 변하기 때문",
 "distractors": [
-"3박동 평균으로 충분",
-"가장 전형적인 1박동을 선택",
-"10박동 이상 평균"
+"AF에서 CWD 파형이 박동마다 완전히 달라지기 때문",
+"5박동 미만에서는 Doppler 신호가 신뢰할 수 없기 때문",
+"AF에서 심박수가 너무 빨라 단일 박동 측정이 불가능하기 때문"
 ],
-"explanation": "AF 등 불규칙 리듬에서는 박동마다 전부하가 달라 transvalvular gradient/velocity도 크게 변한다. 최소 5박동 평균 권고(더 불규칙할수록 더 많이). 매우 짧은 주기 박동은 제외하고 평가한다.\n(2009 Valve Stenosis, AF 항목; 2023 RHD)"
+"explanation": "AF 등 불규칙 리듬에서는 박동마다 R-R interval이 달라 전부하가 변하고 transvalvular gradient/velocity도 크게 변한다. 최소 5박동 평균 권고(더 불규칙할수록 더 많이).\n(2009 Valve Stenosis, AF 항목; 2023 RHD)"
 },
 {
 "id": 23,
 "type": "B2",
 "category": "측정 타이밍",
-"question": "STE 촬영 시 frame rate 50–80 fps를 권고하는 이유는?",
+"question": "STE 촬영 시 frame rate을 50–80 fps로 권고하는 이유는?",
 "answer": "너무 낮으면 speckle 추적 정확도가 저하되고 너무 높으면 공간 해상도가 감소하기 때문",
 "distractors": [
-"80 fps 이상에서는 harmonic imaging이 비활성화되기 때문",
-"50 fps 미만에서는 색 Doppler와 간섭이 발생하기 때문",
-"높은 frame rate일수록 공간 해상도가 좋아지기 때문"
+"50 fps 미만에서는 심박수와 동기화가 불가능하기 때문",
+"80 fps 초과 시 harmonic imaging이 비활성화되기 때문",
+"frame rate가 높을수록 공간 해상도가 좋아지기 때문"
 ],
 "explanation": "Frame rate <40 fps: 심근 이동이 너무 커서 speckle 추적 정확도 저하.\nFrame rate >100 fps: frame당 라인 수 감소로 공간 해상도 나빠짐.\n50–80 fps가 표준 임상 2D STE에서 적절한 범위이다.\n(2025 Strain Guideline, §B)"
 },
@@ -307,7 +307,7 @@
 "distractors": [
 "LVEF가 35% 미만으로 감소해 있을 때",
 "3D echo 장비를 사용할 수 없을 때",
-"모든 환자에서 더 정확한 측정을 위해 routine으로"
+"모든 환자에서 더 정확한 측정을 위해"
 ],
 "explanation": "ASE/EACVI 권고: 2개 이상의 연속된(contiguous) LV 심내막 세그먼트가 비조영 영상에서 잘 보이지 않을 때 조영제 사용. 조영제 사용 영상은 비조영보다 CMR에 더 가까운 용적값을 제공한다.\n(2015 Chamber Quantification)"
 },
@@ -320,20 +320,20 @@
 "distractors": [
 "TEE가 TTE보다 모든 상황에서 더 높은 해상도를 제공하기 때문",
 "기계 판막 환자는 모두 TEE로만 평가하도록 규정되어 있기 때문",
-"TTE에서 기계 판막의 잎사귀 운동을 확인할 수 없기 때문"
+"TTE에서 기계 판막 잎사귀 운동을 확인할 수 없기 때문"
 ],
-"explanation": "기계 판막의 금속 구조물은 초음파를 강하게 반사 → 후방 구조물 acoustic shadowing 발생. TTE에서 기계적 승모판 후방의 abscess, vegetation, PVL 등이 보이지 않는다. TEE는 transducer가 식도에 위치하여 승모판이 near field에 있어 acoustic shadowing 없이 평가 가능.\n(2024 Prosthetic Valve)"
+"explanation": "기계 판막의 금속 구조물은 초음파를 강하게 반사 → 후방 acoustic shadowing 발생. TTE에서 기계적 승모판 후방의 abscess, vegetation, PVL 등이 보이지 않는다. TEE는 transducer가 식도에 위치하여 near field에서 acoustic shadowing 없이 평가 가능.\n(2024 Prosthetic Valve)"
 },
 {
 "id": 26,
 "type": "B3",
 "category": "설정·TEE/3D 선택",
 "question": "MR 환자에서 MV repair 계획 전 TEE가 선호되는 이유는?",
-"answer": "판막 leaflet scallop, chordal anatomy 등 세부 해부 구조를 더 명확히 평가하기 때문",
+"answer": "leaflet scallop, chordal anatomy 등 세부 해부 구조를 더 명확히 평가하기 때문",
 "distractors": [
-"TEE에서만 역류 제트의 방향을 정확히 평가할 수 있기 때문",
-"TTE로는 MR의 중증도를 전혀 평가할 수 없기 때문",
-"수술실에서 이어지는 intraoperative TEE와 동일한 영상을 제공하기 때문"
+"TEE에서만 역류 제트 방향을 정확히 평가할 수 있기 때문",
+"TTE로는 MR 중증도를 전혀 평가할 수 없기 때문",
+"TEE가 수술실 intraoperative echo와 동일한 영상을 제공하기 때문"
 ],
 "explanation": "MV repair 계획: prolapse/flail 위치(A1-A2-A3, P1-P2-P3 scallop), chordal integrity, annular dilation 등을 상세히 파악해야 한다. TEE는 transducer가 식도에 위치하여 MV 해부 구조를 상세 평가. 3D TEE: en-face view로 surgeon's perspective 제공.\n(2017 Native Valvular Regurgitation, Role of TEE section)"
 },
@@ -344,11 +344,11 @@
 "question": "다음 중 elevated LAP를 시사하지 않는 소견은?",
 "answer": "LAVi 28 mL/m²",
 "distractors": [
-"septal e' 4 cm/s",
 "average E/e' ratio 16",
-"LARS 15%"
+"LARS 15%",
+"septal e' 4 cm/s"
 ],
-"explanation": "LAVi 28 mL/m²는 정상 범위(≤34 mL/m²) 내에 있어 elevated LAP를 직접 시사하지 않는다.\n반면 septal e' ≤6 cm/s, average E/e' ≥14, LARS ≤18%는 모두 elevated LAP 기준을 충족한다.\n(2025 LV Diastolic Update, Figure 3; 2015 Chamber Quantification)"
+"explanation": "LAVi 28 mL/m²는 정상 범위(≤34 mL/m²) 내에 있어 elevated LAP를 직접 시사하지 않는다.\n반면 average E/e' ≥14, LARS ≤18%, septal e' ≤6 cm/s는 모두 elevated LAP 기준을 충족한다.\n(2025 LV Diastolic Update, Figure 3; 2015 Chamber Quantification)"
 },
 {
 "id": 28,
@@ -367,20 +367,20 @@
 "id": 29,
 "type": "C1",
 "category": "정상 범위 판단",
-"question": "AS 환자: peak velocity 3.5 m/s, mean gradient 28 mmHg, AVA 1.3 cm². 중증도는?",
+"question": "peak velocity 3.5 m/s, mean gradient 28 mmHg, AVA 1.3 cm²의 AS 중증도는?",
 "answer": "중등도(moderate)",
 "distractors": [
-"경증(mild)",
+"경도(mild)",
 "중증(severe)",
 "Low-flow severe AS"
 ],
-"explanation": "2017 AS Focused Update Table 3 기준:\n• Peak velocity 3.0–4.0 m/s → moderate\n• Mean gradient 20–40 mmHg → moderate\n• AVA 1.0–1.5 cm² → moderate\n세 지표 모두 moderate 범위에서 일치(concordant) → moderate AS.\n(2017 AS Focused Update, Table 3)"
+"explanation": "2017 AS Focused Update Table 3:\n• Peak velocity 3.0–4.0 m/s → moderate\n• Mean gradient 20–40 mmHg → moderate\n• AVA 1.0–1.5 cm² → moderate\n세 지표 모두 moderate 범위에서 일치(concordant) → moderate AS.\n(2017 AS Focused Update, Table 3)"
 },
 {
 "id": 30,
 "type": "C1",
 "category": "정상 범위 판단",
-"question": "Primary MR: VCW 0.8 cm, EROA 0.45 cm², RVol 65 mL. 중증도 분류는?",
+"question": "VCW 0.8 cm, EROA 0.45 cm², RVol 65 mL인 primary MR의 중증도 분류는?",
 "answer": "Grade IV (severe)",
 "distractors": [
 "Grade II (moderate)",
@@ -394,11 +394,11 @@
 "type": "C2",
 "category": "등급 경계 의미",
 "question": "LV diastolic dysfunction Grade 2와 Grade 3의 구분 기준은?",
-"answer": "E/A ratio가 2 미만(Grade 2) vs 2 이상(Grade 3)",
+"answer": "E/A ratio 2 미만(Grade 2) vs 2 이상(Grade 3)",
 "distractors": [
-"e' velocity가 6 cm/s 미만(Grade 2) vs 4 cm/s 미만(Grade 3)",
-"E/e' ratio가 14 미만(Grade 2) vs 14 이상(Grade 3)",
-"LARS가 18% 미만(Grade 2) vs 10% 미만(Grade 3)"
+"e' velocity 6 cm/s 미만(Grade 2) vs 4 cm/s 미만(Grade 3)",
+"E/e' ratio 14 미만(Grade 2) vs 14 이상(Grade 3)",
+"LARS 18% 미만(Grade 2) vs 10% 미만(Grade 3)"
 ],
 "explanation": "2025 LV Diastolic Update Figure 3: LAP 상승이 확인된 상태에서 E/A <2 → Grade 2(moderate elevated LAP), E/A ≥2 → Grade 3(markedly elevated LAP, restrictive filling).\nGrade 3: deceleration time <160 ms, IVRT <50 ms로 추가 확인 가능.\n(2025 LV Diastolic Update, Figure 3)"
 },
@@ -406,7 +406,7 @@
 "id": 32,
 "type": "C2",
 "category": "등급 경계 의미",
-"question": "Low-flow 상태에서 AVA, mean gradient, peak velocity 중 가장 신뢰도가 높은 파라미터는?",
+"question": "Low-flow 상태에서 AVA, mean gradient, peak velocity 중 신뢰도가 가장 높은 파라미터는?",
 "answer": "AVA (aortic valve area)",
 "distractors": [
 "Peak velocity",
@@ -424,7 +424,7 @@
 "distractors": [
 "−16%는 모든 연령에서 정상인의 95% 신뢰구간 하한이기 때문",
 "−16%는 심부전 발생의 독립적 예후 임계값이기 때문",
-"−16%는 정상 범위의 최솟값이기 때문"
+"−16%는 정상 GLS 범위의 최솟값이기 때문"
 ],
 "explanation": "2025 Strain Guideline: Normal: more negative than −18%. Borderline: −16%~−18%. Abnormal: less negative than −16%.\nMorris et al. 23,208명 메타분석에서 −16%가 주요 벤더 전반에 걸쳐 LLN으로 확인되었다.\n(2025 Strain Guideline, §3)"
 },
@@ -435,7 +435,7 @@
 "question": "심장수술 후 RV 기능 평가에 FAC이 TAPSE보다 적합한 이유는?",
 "answer": "수술 후 심막 유착으로 종방향 운동이 저해되어도 FAC은 방사+종방향을 모두 반영하기 때문",
 "distractors": [
-"FAC은 수술 직후에도 측정이 가능하고 TAPSE는 48시간 이후에만 가능하기 때문",
+"FAC은 수술 직후부터 측정 가능하고 TAPSE는 48시간 이후에만 가능하기 때문",
 "수술 후 TAPSE는 0 mm에 가까워 측정 의미가 없기 때문",
 "FAC 측정이 TAPSE보다 기술적으로 더 단순하기 때문"
 ],
@@ -446,26 +446,26 @@
 "type": "C3",
 "category": "유량 의존성",
 "question": "심한 빈혈 환자에서 AS gradient가 실제보다 높게 측정될 수 있는 이유는?",
-"answer": "빈혈로 심박출량이 증가하여 transvalvular flow가 늘어나기 때문",
+"answer": "심박출량 증가로 transvalvular flow가 늘어나기 때문",
 "distractors": [
-"빈혈로 혈류 점도가 높아져 마찰 손실이 증가하기 때문",
-"빈혈로 혈압이 상승하여 대동맥 후부하가 증가하기 때문",
-"빈혈로 대동맥이 확장되어 압력 회복(pressure recovery)이 커지기 때문"
+"혈류 점도 증가로 마찰 손실이 커지기 때문",
+"혈압 상승으로 대동맥 후부하가 증가하기 때문",
+"대동맥 확장으로 pressure recovery가 증가하기 때문"
 ],
-"explanation": "Gradient와 velocity는 유량(flow)에 비례. 빈혈, 발열, 갑상선기능항진증 등 고박출 상태(SVi >58 mL/m²)에서는 moderate AS(AVA ≥1.0 cm²)도 gradient ≥40 mmHg를 보일 수 있다. 고박출 원인 확인·교정 후 재평가 필요.\n(2017 AS Focused Update, High Gradient AS Track)"
+"explanation": "Gradient와 velocity는 유량(flow)에 비례. 빈혈, 발열, 갑상선기능항진증 등 고박출 상태(SVi >58 mL/m²)에서는 moderate AS(AVA ≥1.0 cm²)도 gradient ≥40 mmHg를 보일 수 있다.\n(2017 AS Focused Update, High Gradient AS Track)"
 },
 {
 "id": 36,
 "type": "C3",
 "category": "유량 의존성",
 "question": "Dobutamine stress echo로 true severe AS와 pseudo-severe AS를 감별하는 원리는?",
-"answer": "유량 증가 시 true severe는 AVA <1.0 cm² 유지+gradient 상승, pseudo-severe는 AVA가 증가한다",
+"answer": "유량 증가 시 true severe는 AVA가 유지되고 gradient가 오르며, pseudo-severe는 AVA가 증가한다",
 "distractors": [
-"도부타민이 판막 근육을 이완시켜 진짜 오리피스 크기를 드러내기 때문",
-"도부타민 투여 후 증상이 유발되면 true severe로 진단하기 때문",
-"도부타민으로 LV EF가 회복되면 pseudo-severe로 판단하기 때문"
+"도부타민이 판막 근육을 이완시켜 실제 오리피스 크기를 드러낸다",
+"도부타민 후 증상이 유발되면 true severe로 진단한다",
+"도부타민으로 LV EF가 회복되면 pseudo-severe로 판단한다"
 ],
-"explanation": "Low-flow, low-gradient AS(reduced EF):\n• True severe: 판막 자체 협착 → 유량 증가해도 AVA <1.0 cm² 유지, gradient 상승\n• Pseudo-severe: 심기능 저하로 판막이 열리지 않는 것 → 유량 증가 시 판막이 더 열려 AVA ≥1.0 cm²\nLow contractile reserve(SV 증가 <20%): 예후 불량.\n(2017 AS Focused Update, Low Gradient AS Track)"
+"explanation": "Low-flow, low-gradient AS(reduced EF):\n• True severe: 판막 자체 협착 → 유량 증가해도 AVA <1.0 cm² 유지, gradient ≥40 mmHg 상승\n• Pseudo-severe: 심기능 저하로 판막이 열리지 않는 것 → 유량 증가 시 AVA ≥1.0 cm²\nLow contractile reserve(SV 증가 <20%): 예후 불량.\n(2017 AS Focused Update, Low Gradient AS Track)"
 },
 {
 "id": 37,
@@ -476,7 +476,7 @@
 "distractors": [
 "심박수 증가로 심근 수축력이 높아지기 때문",
 "심박수 증가로 대동맥 후부하가 상승하기 때문",
-"심박수 증가로 LA가 더 강하게 수축하기 때문"
+"심박수 증가로 LA 수축력이 증가하기 때문"
 ],
 "explanation": "MS에서 이완기에 좁은 판막을 통해 혈류가 지나간다. 심박수가 빠를수록 이완기가 단축되므로, 같은 양의 혈류를 더 짧은 시간에 통과시키려면 속도가 빨라야 하고 gradient가 상승한다.\n표준 측정 심박수: 60–80 bpm.\n(2023 RHD; 2009 Valve Stenosis)"
 },
@@ -497,12 +497,12 @@
 "id": 39,
 "type": "D1",
 "category": "유사 질환 감별",
-"question": "CP(수축성 심막염)와 restrictive cardiomyopathy 감별에 가장 도움이 되는 echo 소견은?",
+"question": "CP와 RCM(restrictive cardiomyopathy) 감별에 가장 도움이 되는 echo 소견은?",
 "answer": "e' velocity 및 respirophasic mitral inflow 변이",
 "distractors": [
-"LV 수축기 기능 및 LVEF 비교",
+"LV 수축기 기능 및 LVEF",
 "LA volume index 및 LAVi 크기",
-"RV 크기 및 IVC 직경 비교"
+"RV 크기 및 IVC 직경"
 ],
 "explanation": "CP: e' velocity 정상 또는 증가(≥7 cm/s), 흡기 시 mitral E >25% 감소, tricuspid >40% 증가.\nRCM: e' 현저히 감소(3–4 cm/s), respirophasic 변이 없음, E/e' 매우 높음.\n핵심: CP에서 심막이 심근 이완 자체를 방해하지 않으므로 e'가 보존된다.\n(2013 Pericardial Multimodality; 2025 LV Diastolic Update §F)"
 },
@@ -523,10 +523,10 @@
 "id": 41,
 "type": "D1",
 "category": "유사 질환 감별",
-"question": "AS와 HOCM의 CWD 파형으로 감별하는 방법은?",
+"question": "AS와 HOCM의 CWD 파형을 감별하는 방법은?",
 "answer": "AS는 수축기 중반 최고 대칭 파형, HOCM은 수축기 후기 최고 단검 모양 파형이다",
 "distractors": [
-"AS는 4 m/s 이상이고 HOCM은 그 이하로 항상 낮다",
+"AS는 항상 4 m/s 이상이고 HOCM은 항상 그 이하이다",
 "AS는 이완기에도 신호가 지속되고 HOCM은 수축기에만 있다",
 "AS는 suprasternal에서, HOCM은 apical에서만 최고 속도가 측정된다"
 ],
@@ -537,11 +537,11 @@
 "type": "D1",
 "category": "유사 질환 감별",
 "question": "Cardiac tamponade와 CP를 Doppler로 감별하는 핵심 소견은?",
-"answer": "tamponade는 RV diastolic collapse를 보이고 CP는 septal bounce를 보인다",
+"answer": "tamponade는 RV diastolic collapse, CP는 septal bounce를 보인다",
 "distractors": [
-"tamponade와 CP 모두 동일한 respirophasic 변이 패턴을 보인다",
+"두 질환 모두 동일한 respirophasic 변이 패턴을 보인다",
 "tamponade에서는 IVC plethora가 없고 CP에서는 항상 있다",
-"tamponade에서는 e' velocity가 정상이고 CP에서는 감소한다"
+"tamponade에서는 e' velocity가 감소하고 CP에서는 정상이다"
 ],
 "explanation": "Tamponade 특이 소견: RV diastolic collapse, RA collapse >1/3 cardiac cycle, IVC plethora, 흡기 시 mitral E wave ≥30% 감소.\nCP 특이 소견: septal bounce, 정상 또는 증가된 e'(annulus paradoxus), hepatic vein 호기 이완기 혈류 역전.\n(2013 Pericardial Multimodality)"
 },
@@ -582,18 +582,18 @@
 "증상 유무로 감별 가능",
 "LA 크기가 크면 AS, 정상이면 aortic sclerosis"
 ],
-"explanation": "Aortic sclerosis: 판막 thickening/calcification이 있으나 혈역학적 폐쇄 없음. Peak velocity ≤2.5 m/s. 추가 정량화 불필요.\nMild AS: peak velocity 2.6–2.9 m/s, mean gradient <20 mmHg, AVA >1.5 cm².\n판막 형태만으로는 두 가지를 감별할 수 없고, peak velocity가 핵심 기준이다.\n(2017 AS Focused Update, Table 3)"
+"explanation": "Aortic sclerosis: 판막 thickening/calcification이 있으나 혈역학적 폐쇄 없음. Peak velocity ≤2.5 m/s. 추가 정량화 불필요.\nMild AS: peak velocity 2.6–2.9 m/s, mean gradient <20 mmHg, AVA >1.5 cm².\n판막 형태만으로는 두 가지를 감별할 수 없고 peak velocity가 핵심 기준이다.\n(2017 AS Focused Update, Table 3)"
 },
 {
 "id": 46,
 "type": "D2",
 "category": "유사 파형 감별",
 "question": "Mechanical bileaflet valve의 'washing jet'이 pathologic regurgitation과 다른 점은?",
-"answer": "판막 봉합링(sewing ring) 안쪽에서 발생하는 생리적 소량의 역류이다",
+"answer": "봉합링(sewing ring) 안쪽에서 발생하는 생리적 소량의 역류이다",
 "distractors": [
-"washing jet는 더 크고 넓게 퍼지는 경향이 있다",
-"washing jet는 이완기에만 나타나는 역류이다",
-"washing jet는 paravalvular 위치에서 발생한다"
+"봉합링 외부에서 발생하는 고속 역류이다",
+"이완기에만 나타나는 역류이다",
+"판막 중심에서 발생하는 병적 역류이다"
 ],
 "explanation": "기계 이엽 판막: 정상적으로 두 개의 측면 역류 제트와 하나의 중심 역류 제트 = washing jets. 혈전 방지를 위한 설계로 병적인 역류가 아니다.\nPVL(paravalvular leak)은 봉합링 외부에서 발생하는 역류로 washing jet과 구분해야 한다.\n(2024 Prosthetic Valve)"
 },
@@ -601,12 +601,12 @@
 "id": 47,
 "type": "D2",
 "category": "유사 파형 감별",
-"question": "AR에서 CWD PHT와 AR severity의 관계는?",
+"question": "AR에서 PHT와 severity의 관계로 옳은 것은?",
 "answer": "PHT <200 ms → severe AR, PHT >500 ms → mild AR",
 "distractors": [
 "PHT <200 ms → mild AR, PHT >500 ms → severe AR",
-"PHT와 AR severity는 비례 관계이다",
-"PHT는 AR 평가에 사용하지 않는다"
+"PHT >500 ms → severe AR, PHT <200 ms → mild AR",
+"PHT와 AR severity는 비례 관계이다"
 ],
 "explanation": "AR CWD PHT:\n• PHT <200 ms → severe AR 시사\n• PHT 200–500 ms → moderate AR 범위\n• PHT >500 ms → mild AR 시사\n주의: LV compliance 변화에 영향받는다. 혈관확장제 치료로 diastolic BP 감소 시 PHT가 단축될 수 있다.\n(2017 Native Valvular Regurgitation, Table 11)"
 },
@@ -621,13 +621,13 @@
 "GLS",
 "TAPSE"
 ],
-"explanation": "E velocity: 이완기 초기 LA-LV 압력차에 의해 생성 → 전부하에 직접 비례. 전부하 증가 시 E velocity 상승, 이뇨제/Valsalva 시 감소. e'는 상대적으로 전부하 독립적(심근 이완 속도 반영). 이것이 E/e' ratio가 의미있는 이유다.\n(2025 LV Diastolic Update)"
+"explanation": "E velocity: 이완기 초기 LA-LV 압력차에 의해 생성 → 전부하에 직접 비례. 전부하 증가 시 E velocity 상승, Valsalva/이뇨제 시 감소. e'는 상대적으로 전부하 독립적(심근 이완 속도 반영). 이것이 E/e' ratio가 의미있는 이유다.\n(2025 LV Diastolic Update)"
 },
 {
 "id": 49,
 "type": "D3",
 "category": "파라미터 특성 비교",
-"question": "AVA(연속방정식)와 DVI(velocity ratio) 비교 시 DVI의 상대적 장점은?",
+"question": "DVI(Doppler velocity index)의 상대적 장점은?",
 "answer": "LVOT diameter 측정 오류의 영향을 받지 않는다",
 "distractors": [
 "DVI가 AVA보다 항상 더 정확한 severity 분류를 제공한다",
@@ -647,17 +647,17 @@
 "FAC은 2D 기반이어서 TAPSE보다 측정이 더 복잡하다",
 "두 파라미터는 동일한 정보를 다른 방법으로 측정한다"
 ],
-"explanation": "TAPSE: M-mode로 삼첨판륜의 종방향 이동만 측정.\nFAC = (RV EDA - RV ESA) / RV EDA: 종방향 단축 + 방사방향 두께 증가 + IVS 수축 반영 → 더 포괄적. 심장수술 후: TAPSE 과소평가 → FAC 선호. Normal FAC >35%.\n(2015 Chamber Quantification; 2025 Right Heart in PH)"
+"explanation": "TAPSE: M-mode로 삼첨판륜의 종방향 이동만 측정.\nFAC = (RV EDA - RV ESA) / RV EDA: 종방향+방사방향 수축 모두 포함 → 더 포괄적.\n심장수술 후: TAPSE 과소평가 → FAC 선호. Normal FAC >35%.\n(2015 Chamber Quantification; 2025 Right Heart in PH)"
 },
 {
 "id": 51,
 "type": "E1",
 "category": "측정 오류 원인",
-"question": "LVOT CSA 계산에서 LVOT diameter를 과소평가하면 AVA에 미치는 영향은?",
+"question": "LVOT diameter를 과소평가했을 때 AVA에 미치는 영향은?",
 "answer": "diameter가 제곱되므로 오류가 더 크게 증폭되어 AVA가 과소평가된다",
 "distractors": [
 "diameter 오류와 AVA 오류가 동일한 비율로 발생한다",
-"AVA에는 영향이 없고 mean gradient만 변한다",
+"AVA에는 영향 없고 mean gradient만 변한다",
 "AVA가 오히려 과대평가된다"
 ],
 "explanation": "CSA_LVOT = π(D/2)². D가 과소평가되면 제곱 효과로 CSA가 더 크게 과소평가 → AVA도 크게 과소평가된다.\n예: D=2.0→1.8 cm 시 CSA 약 19% 과소평가 → AVA도 약 19% 과소평가.\n(2017 AS Focused Update; 2009 Valve Stenosis, Continuity Equation Limitations)"
@@ -673,7 +673,7 @@
 "eccentric jet에서는 PISA 방법을 사용할 수 없기 때문",
 "eccentric jet는 대부분 mild MR에서만 나타나기 때문"
 ],
-"explanation": "Coanda effect: 역류 jet이 LA 벽을 따라 이동하면 주변 혈액을 끌어당기고 jet 자체가 벽에 달라붙어 퍼지지 못한다. 이로 인해 color Doppler jet area가 실제 역류 용적에 비해 작게 보여 severity를 과소평가한다.\n따라서 eccentric jet에서는 VCW와 정량적 방법(PISA, volumetric) 사용이 권고된다.\n(2017 Native Valvular Regurgitation)"
+"explanation": "Coanda effect: 역류 jet이 LA 벽을 따라 이동하면 주변 혈액을 끌어당기고 jet 자체가 벽에 달라붙어 퍼지지 못한다. 이로 인해 color Doppler jet area가 실제 역류 용적에 비해 작게 보여 severity를 과소평가한다.\n(2017 Native Valvular Regurgitation)"
 },
 {
 "id": 53,
@@ -682,35 +682,35 @@
 "question": "STE에서 foreshortening이 apical strain을 과대평가하는 이유는?",
 "answer": "더 잘 수축하는 mid/basal segment가 apical segment로 포함되어 측정되기 때문",
 "distractors": [
-"apex에서 speckle의 밀도가 낮아 추적 정확도가 높아지기 때문",
-"foreshortening은 basal strain에만 영향을 준다",
-"apical segment가 포함되지 않으면 strain 계산이 증가한다"
+"apex에서 speckle 밀도가 낮아 추적 정확도가 높아지기 때문",
+"foreshortening은 basal strain에만 영향을 주기 때문",
+"apical segment가 제외되면 strain 계산값이 증가하기 때문"
 ],
-"explanation": "Foreshortening: LV가 실제보다 짧게 imaging됨 → 진짜 apical segment가 아닌 mid/basal segment가 apical segment로 포함됨. 상대적으로 더 잘 수축하는 mid/basal segment가 apex로 계산 → apical strain 과대평가.\n예방: depth를 줄여 진짜 apex가 화면 상단에 위치하도록.\n(2025 Strain Guideline, Table 2)"
+"explanation": "Foreshortening: LV가 실제보다 짧게 imaging됨 → 진짜 apical segment가 아닌 mid/basal segment가 apical segment로 포함됨. 상대적으로 더 잘 수축하는 mid/basal segment가 apex로 계산 → apical strain 과대평가.\n(2025 Strain Guideline, Table 2)"
 },
 {
 "id": 54,
 "type": "E1",
 "category": "측정 오류 원인",
 "question": "Severe MR이 있을 때 continuity equation으로 AVA를 계산하면 오류가 발생하는 이유는?",
-"answer": "MR로 인해 LVOT를 통과하는 forward SV와 AV를 통과하는 SV가 달라지기 때문",
+"answer": "MR로 인해 LVOT forward SV와 AV를 통과하는 SV가 달라지기 때문",
 "distractors": [
 "MR이 있으면 대동맥 유속이 비정상적으로 높아지기 때문",
 "MR이 있으면 LVOT가 구조적으로 확장되기 때문",
 "MR과 AS는 생리적으로 동시에 발생할 수 없기 때문"
 ],
-"explanation": "연속 방정식 전제: SV_LVOT = SV_AV. MR이 있으면 LV에서 박출되는 혈류 중 일부가 역류로 나가므로, LVOT forward SV와 AV SV가 동일하지 않게 된다 → AVA 과대평가 가능.\n(2009 Valve Stenosis; 2017 AS Focused Update)"
+"explanation": "연속 방정식 전제: SV_LVOT = SV_AV. MR이 있으면 LV 박출 혈류 중 일부가 역류로 나가므로, LVOT forward SV와 AV SV가 동일하지 않게 된다 → AVA 과대평가 가능.\n(2009 Valve Stenosis; 2017 AS Focused Update)"
 },
 {
 "id": 55,
 "type": "E2",
 "category": "특수 상황 적용 한계",
-"question": "AF 환자에서 이완기능 평가 시 E/A ratio 알고리즘을 적용할 수 없는 이유는?",
-"answer": "AF에서 심방 수축이 없어 A wave가 존재하지 않기 때문",
+"question": "AF 환자에서 E/A ratio 알고리즘을 적용할 수 없는 이유는?",
+"answer": "심방 수축이 없어 A wave가 존재하지 않기 때문",
 "distractors": [
-"AF에서 E velocity 측정 자체가 불가능하기 때문",
-"AF에서 이완기 기능은 항상 정상으로 가정하기 때문",
-"AF에서 RR interval이 짧아 E와 A가 구분되지 않기 때문"
+"E velocity 측정 자체가 불가능하기 때문",
+"이완기 기능이 AF에서 항상 정상으로 가정되기 때문",
+"RR interval이 짧아 E와 A가 구분되지 않기 때문"
 ],
 "explanation": "AF에서는 심방 수축(atrial kick)이 없으므로 A wave가 발생하지 않는다. 따라서 E/A ratio 기반 표준 알고리즘(2025 LV Diastolic Update Figure 3)을 적용할 수 없다.\nAF에서는 별도 파라미터 사용: DT <160 ms, E/Vp ≥1.4, septal E/e' ≥11, peak TR velocity >2.8 m/s 등.\n(2025 LV Diastolic Update §H)"
 },
@@ -718,25 +718,25 @@
 "id": 56,
 "type": "E2",
 "category": "특수 상황 적용 한계",
-"question": "폐고혈압(PH) 환자에서 평균 E/e' 대신 lateral E/e'를 사용하는 이유는?",
-"answer": "PH에서 IVS flattening으로 septal e'가 LV 이완을 정확히 반영하지 못하기 때문",
+"question": "PH 환자에서 평균 E/e' 대신 lateral E/e'를 사용하는 이유는?",
+"answer": "IVS flattening으로 septal e'가 LV 이완을 정확히 반영하지 못하기 때문",
 "distractors": [
-"lateral e'가 모든 상황에서 septal e'보다 항상 더 정확하기 때문",
+"lateral e'가 모든 상황에서 항상 더 정확하기 때문",
 "PH에서 septal e' 측정 자체가 기술적으로 불가능하기 때문",
 "PH에서는 lateral wall이 항상 더 잘 보이기 때문"
 ],
-"explanation": "PH에서는 높은 RV 압력으로 인해 IVS가 좌측으로 편향되거나 flattening이 발생한다. 이로 인해 septal e' velocity가 LV 이완을 정확히 반영하지 못한다. Lateral e'는 IVS 영향을 덜 받아 더 신뢰할 수 있다.\nPH에서 lateral E/e' >13 = elevated LAP.\n(2025 LV Diastolic Update §C, Pulmonary Hypertension)"
+"explanation": "PH에서는 높은 RV 압력으로 IVS가 좌측으로 편향되거나 flattening이 발생한다. 이로 인해 septal e' velocity가 LV 이완을 정확히 반영하지 못한다. Lateral e'는 IVS 영향을 덜 받아 더 신뢰할 수 있다.\nPH에서 lateral E/e' >13 = elevated LAP.\n(2025 LV Diastolic Update §C)"
 },
 {
 "id": 57,
 "type": "E2",
 "category": "특수 상황 적용 한계",
 "question": "PBMV 직후 PHT로 MVA를 계산하는 것이 부정확한 이유는?",
-"answer": "급격한 LV compliance 변화로 PHT가 인위적으로 단축되어 MVA가 과대평가되기 때문",
+"answer": "LV compliance 급변으로 PHT가 인위적으로 단축되어 MVA가 과대평가되기 때문",
 "distractors": [
 "PBMV 후 AF가 발생하여 A wave가 소실되기 때문",
 "PBMV 후 발생하는 MR이 E velocity를 낮추기 때문",
-"PBMV 후 심박수가 증가하여 이완기가 단축되기 때문"
+"PBMV 후 심박수 증가로 이완기가 단축되기 때문"
 ],
 "explanation": "PBMV 직후: 갑자기 MV가 열리면 LV compliance가 급격히 변한다. 이로 인해 PHT가 인위적으로 짧아져 MVA가 실제보다 크게 계산된다. PBMV 직후에는 planimetry(직접 면적 측정) 사용.\n(2009 Valve Stenosis; 2023 RHD)"
 },
@@ -745,7 +745,7 @@
 "type": "E2",
 "category": "특수 상황 적용 한계",
 "question": "Acute severe MR에서 color Doppler jet area가 작게 보이는 이유는?",
-"answer": "저혈압+높은 LA 압력으로 LV-LA 구동 압력이 낮아 jet 속도와 area가 감소하기 때문",
+"answer": "저혈압+높은 LA 압력으로 LV-LA 구동 압력이 낮아 jet 속도가 감소하기 때문",
 "distractors": [
 "acute MR에서 역류 오리피스가 chronic MR보다 작기 때문",
 "acute MR에서 LA가 작아 jet가 확산되지 못하기 때문",
@@ -757,12 +757,12 @@
 "id": 59,
 "type": "E3",
 "category": "함정 소견",
-"question": "Cardiac amyloidosis에서 '정상 EF에도 불구한 낮은 GLS' 패턴이 나타나는 이유는?",
-"answer": "amyloid 침착이 심내막하층을 주로 침범하여 종방향 수축이 저하되지만 원주방향 수축이 보상하기 때문",
+"question": "Cardiac amyloidosis에서 '정상 EF + 낮은 GLS' 패턴이 나타나는 이유는?",
+"answer": "amyloid 침착이 심내막하층을 침범하여 종방향 수축이 저하되지만 원주방향 수축이 보상하기 때문",
 "distractors": [
 "amyloid 침착이 심막을 두껍게 하여 LV 이완을 제한하기 때문",
 "amyloid가 대동맥판막에도 침착되어 이중 부하를 일으키기 때문",
-"amyloid 침착이 LV 용적을 증가시켜 EF 계산에 영향을 미치기 때문"
+"amyloid 침착이 LV 용적을 증가시켜 EF 계산에 영향을 주기 때문"
 ],
 "explanation": "Cardiac amyloidosis: amyloid 침착이 심내막하층에 집중되어 종방향(longitudinal) 수축이 먼저 저하된다. 원주방향(circumferential)과 방사방향(radial) 수축이 보상하여 EF는 정상으로 보이지만 GLS는 이미 감소. 특히 apical sparing 패턴(기저부 strain 감소, apical strain 상대적 보존)이 특징적.\n(2025 Strain Guideline; 2025 LV Diastolic Update)"
 },
@@ -770,8 +770,8 @@
 "id": 60,
 "type": "E3",
 "category": "함정 소견",
-"question": "'정상 e' velocity'가 있어도 constrictive pericarditis를 의심해야 하는 이유는?",
-"answer": "CP에서 e'가 정상 또는 증가(≥7 cm/s)하는 것이 오히려 CP의 특징이기 때문",
+"question": "정상 e' velocity가 있어도 CP를 의심해야 하는 이유는?",
+"answer": "CP에서 e'가 정상 또는 증가하는 것이 오히려 CP의 특징이기 때문",
 "distractors": [
 "정상 e'는 모든 심장 질환에서 나타나는 비특이적 소견이기 때문",
 "CP에서는 e' velocity가 항상 감소하므로 정상이면 CP를 배제한다",
@@ -783,11 +783,11 @@
 "id": 61,
 "type": "E3",
 "category": "함정 소견",
-"question": "Paradoxical low-flow AS에서 EF가 '정상'으로 보이는 이유는?",
-"answer": "LV concentric remodeling으로 cavity가 작아져 작은 EDV-ESV 비가 EF를 높게 보이게 하기 때문",
+"question": "Paradoxical low-flow AS에서 LVEF가 '정상'으로 보이는 이유는?",
+"answer": "LV concentric remodeling으로 cavity가 작아져 작은 EDV-ESV에서 EF가 정상처럼 계산되기 때문",
 "distractors": [
 "대동맥판막 협착이 LV 수축을 보조하기 때문",
-"low-flow 상태에서는 Simpson법으로 EF를 계산할 수 없기 때문",
+"low-flow 상태에서는 EF 계산 방식이 달라지기 때문",
 "AS에서는 LV 후부하가 높아 EF가 항상 과대평가되기 때문"
 ],
 "explanation": "Paradoxical low-flow AS: LV concentric remodeling으로 LV cavity가 작아진다. Simpson biplane: (EDV - ESV) / EDV. EDV와 ESV 모두 작지만 그 비율이 상대적으로 보존되어 EF가 정상처럼 계산된다. 실제로는 SVi <35 mL/m².\n(2017 AS Focused Update, Paradoxical Low Flow section)"
@@ -816,13 +816,13 @@
 "RV 확장 + 폐동맥 압력 상승 + TR 증가 + D-shaped LV",
 "LA 확장 + E/e' >14 + GLS 정상 + LVEF 감소"
 ],
-"explanation": "Amyloidosis red flags:\n• LV+RV 벽 두께 증가(biventricular hypertrophy)\n• Granular sparkling 에코 질감\n• EF 보존이지만 낮은 stroke volume index\n• 이완기 장애(E/A >2 + 낮은 annular velocity)\n• GLS: apical sparing(기저부 strain 감소, apical 상대적 보존)\n• '5-5-5 sign': s', e', a' 모두 <5 cm/s\n(2025 LV Diastolic Update; 2025 Strain Guideline)"
+"explanation": "Amyloidosis red flags:\n• LV+RV 벽 두께 증가(biventricular hypertrophy)\n• Granular sparkling 에코 질감\n• EF 보존이지만 낮은 SVi\n• 이완기 장애(E/A >2 + 낮은 annular velocity)\n• GLS: apical sparing(기저부 strain 감소, apical 상대적 보존)\n• '5-5-5 sign': s', e', a' 모두 <5 cm/s\n(2025 LV Diastolic Update; 2025 Strain Guideline)"
 },
 {
 "id": 64,
 "type": "F1",
 "category": "소견 묶음",
-"question": "Group 1 PAH(폐동맥고혈압)의 특징적 echo 소견 묶음은?",
+"question": "Group 1 PAH의 특징적 echo 소견 묶음은?",
 "answer": "RV/LV >1 + RVOT AccT ≤105 ms + TAPSE/PASP <0.55 + 정상/작은 좌심",
 "distractors": [
 "LV 비대 + dilated LA + Grade ≥2 이완기 장애 + E/e' >14",
@@ -848,8 +848,8 @@
 "id": 66,
 "type": "F2",
 "category": "병태 진행 방향",
-"question": "LV diastolic dysfunction이 Grade 1에서 Grade 3로 진행할 때 E wave의 변화 방향은?",
-"answer": "Grade 1에서 낮다가 Grade 2–3로 가면서 LAP 상승으로 다시 증가한다",
+"question": "Diastolic dysfunction이 Grade 1에서 Grade 3로 진행할 때 E wave의 변화 방향은?",
+"answer": "Grade 1에서 낮다가 Grade 2–3로 가면서 LAP 상승으로 다시 높아진다",
 "distractors": [
 "Grade 1에서 Grade 3로 갈수록 계속 감소한다",
 "Grade 1에서 Grade 3로 갈수록 계속 증가한다",
@@ -894,14 +894,14 @@
 "HFpEF 진단 기준에 안정 시 echo 소견이 포함되지 않기 때문",
 "echo는 HFpEF 평가에 적합하지 않기 때문"
 ],
-"explanation": "HFpEF 환자의 최대 50%는 안정 시 LV 충만 압력이 정상 범위에 있다가 운동 시 급격히 상승한다. 따라서 안정 시 echo로 이상이 없더라도 HFpEF를 배제할 수 없다. 이런 환자는 diastolic exercise stress echo가 필요하다.\n(2025 LV Diastolic Update §13, §16F)"
+"explanation": "HFpEF 환자의 최대 50%는 안정 시 LV 충만 압력이 정상 범위에 있다가 운동 시 급격히 상승한다. 따라서 안정 시 echo로 이상이 없더라도 HFpEF를 배제할 수 없다.\n이런 환자는 diastolic exercise stress echo가 필요하다.\n(2025 LV Diastolic Update §13, §16F)"
 },
 {
 "id": 70,
 "type": "F3",
 "category": "보상 vs 비보상",
 "question": "Severe AS에서 EF가 보존되어도 LV 기능 이상을 나타내는 echo 지표는?",
-"answer": "GLS 감소 (less negative), 특히 basal LS less negative than −13%",
+"answer": "GLS 감소(less negative), 특히 basal LS less negative than −13%",
 "distractors": [
 "LV 벽 두께가 감소하기 시작한다",
 "LA 크기가 정상으로 유지된다",
@@ -913,8 +913,8 @@
 "id": 71,
 "type": "F3",
 "category": "보상 vs 비보상",
-"question": "LA volume index가 chronic LAP 상승의 '누적 마커'로 활용되는 이유는?",
-"answer": "LA는 만성적 압력 부하에 반응하여 서서히 확장하여 과거 평균 LAP를 반영하기 때문",
+"question": "LA volume이 chronic LAP 상승의 '누적 마커'로 활용되는 이유는?",
+"answer": "LA는 만성적 압력 부하에 반응하여 서서히 확장하므로 과거 평균 LAP를 반영하기 때문",
 "distractors": [
 "LA는 급성 압력 변화에만 반응하기 때문",
 "LA volume은 심박수와 무관하게 일정하기 때문",
@@ -927,10 +927,10 @@
 "type": "F4",
 "category": "Strain 패턴 해석",
 "question": "Cardiac amyloidosis에서 apical sparing strain 패턴이 나타나는 이유는?",
-"answer": "Amyloid가 기저부 심내막하층에서 먼저 침범하여 basal/mid strain이 감소하고 apical strain이 상대적으로 보존되기 때문",
+"answer": "amyloid가 기저부 심내막하층에서 먼저 침범하여 basal/mid strain이 감소하고 apical strain이 상대적으로 보존되기 때문",
 "distractors": [
-"Amyloid가 apex에 집중적으로 침착되기 때문",
-"Apex가 항상 마지막으로 영향받기 때문",
+"amyloid가 apex에 집중적으로 침착되기 때문",
+"apex가 항상 마지막으로 amyloid에 영향받기 때문",
 "RV strain이 감소하고 LV apical strain이 보상적으로 증가하기 때문"
 ],
 "explanation": "Apical sparing pattern: polar map에서 basal/mid strain 감소 + apical strain 상대적 보존.\n감별 지표: apical/basal strain ratio >1, septal apical-to-basal ratio >2.1, EF/strain ratio >4.1.\n고혈압성 심장병, HCM, AS에서는 더 균등한 감소를 보인다.\n(2025 Strain Guideline; 2025 LV Diastolic Update)"
@@ -946,7 +946,7 @@
 "PSS는 이완기 장애의 보상 기전이기 때문",
 "PSS는 심막 질환에서만 나타나기 때문"
 ],
-"explanation": "정상 심근: 수축기(AVC 이전)에 최대 수축 후 이완.\n허혈 심근: 수축기에 stretching(조기 수축 불량) + AVC 이후 뒤늦은 수축 = PSS. PSS가 있으면 viable tissue 가능성 높음(scar는 PSS 없음). Strain curve 형태 분석이 중요하다.\n(2025 Strain Guideline, Figure 1)"
+"explanation": "정상 심근: 수축기(AVC 이전)에 최대 수축 후 이완.\n허혈 심근: 수축기에 stretching(조기 수축 불량) + AVC 이후 뒤늦은 수축 = PSS. PSS가 있으면 viable tissue 가능성 높음(scar는 PSS 없음).\n(2025 Strain Guideline, Figure 1)"
 },
 {
 "id": 74,
@@ -972,7 +972,7 @@
 "즉시 right heart catheterization을 시행한다",
 "LARS와 LAVi만 추가로 측정한다"
 ],
-"explanation": "운동 시 호흡 곤란 + 안정 시 echo 정상 → HFpEF 가능성. 안정 시 LAP가 정상인 HFpEF 환자가 최대 50%. Grade 1 diastolic dysfunction(impaired relaxation, normal LAP) + 증상 = diastolic exercise stress echo 최적 적응증.\n양성 기준: 운동 후 average E/e' ≥14(septal ≥15) + TR velocity >3.2 m/s.\n(2025 LV Diastolic Update §13)"
+"explanation": "운동 시 호흡 곤란 + 안정 시 echo 정상 → HFpEF 가능성. 안정 시 LAP가 정상인 HFpEF 환자가 최대 50%. Grade 1 diastolic dysfunction + 증상 = diastolic exercise stress echo 최적 적응증.\n양성 기준: 운동 후 average E/e' ≥14(septal ≥15) + TR velocity >3.2 m/s.\n(2025 LV Diastolic Update §13)"
 },
 {
 "id": 76,
@@ -985,29 +985,29 @@
 "LV GLS와 LV 수축기 기능",
 "LA volume index와 이완기 기능 등급"
 ],
-"explanation": "대량 심낭삼출 발견 시 hemodynamic compromise(tamponade) 여부가 최우선 평가.\nTamponade 소견: ① RV diastolic collapse ② RA collapse >1/3 cardiac cycle ③ IVC plethora ④ 흡기 시 mitral E wave ≥30% 감소.\n삼출액 크기 단독으로는 tamponade를 진단할 수 없다.\n(2013 Pericardial Multimodality)"
+"explanation": "대량 심낭삼출 발견 시 hemodynamic compromise(tamponade) 여부가 최우선 평가.\nTamponade 소견: RV diastolic collapse, RA collapse >1/3 cardiac cycle, IVC plethora, 흡기 시 mitral E wave ≥30% 감소.\n삼출액 크기 단독으로는 tamponade를 진단할 수 없다.\n(2013 Pericardial Multimodality)"
 },
 {
 "id": 77,
 "type": "G1",
 "category": "증상 → echo 평가",
-"question": "암 치료(항암제) 중인 환자에서 심독성을 조기에 감지하는 echo 지표는?",
+"question": "암 치료(항암제) 중 심독성을 조기에 감지하는 echo 지표는?",
 "answer": "LV GLS의 상대적 변화(≥10–15% 감소)가 LVEF 변화보다 먼저 심독성을 시사한다",
 "distractors": [
 "LVEF의 절대값이 50% 미만으로 감소해야 심독성이다",
 "RV 기능 변화가 LVEF보다 먼저 심독성을 반영한다",
 "이완기 기능(E/e' ratio)이 가장 먼저 변하는 지표이다"
 ],
-"explanation": "Cardiotoxicity monitoring: LVEF 감소는 늦게 나타난다. GLS의 상대적 변화(relative change) ≥10–15%가 이후 EF 저하의 조기 예측인자. 기저치 대비 ≥15% 상대 감소 시 심독성 위험 증가. 따라서 치료 시작 전 기저치 echo 촬영이 필수.\n(2025 Strain Guideline §C)"
+"explanation": "Cardiotoxicity monitoring: LVEF 감소는 늦게 나타난다. GLS의 상대적 변화(relative change) ≥10–15%가 이후 EF 저하의 조기 예측인자. 기저치 대비 ≥15% 상대 감소 시 심독성 위험 증가. 치료 시작 전 기저치 echo 촬영이 필수.\n(2025 Strain Guideline §C)"
 },
 {
 "id": 78,
 "type": "G1",
 "category": "증상 → echo 평가",
-"question": "실신이 있는 AS 환자에서 gradient가 낮게 나와도 severe AS일 수 있는 상황은?",
+"question": "실신이 있는 AS 환자에서 gradient가 낮아도 severe AS일 수 있는 상황은?",
 "answer": "LV 수축기능 저하로 low-flow 상태가 되어 severe AS임에도 gradient가 낮게 측정되는 경우",
 "distractors": [
-"항상 gradient가 낮으면 mild AS이므로 gradient만으로 판단이 가능하다",
+"gradient가 낮으면 항상 mild AS이다",
 "AS에서는 실신 여부와 무관하게 gradient가 항상 높다",
 "gradient와 AS severity는 서로 무관한 파라미터이다"
 ],
@@ -1024,7 +1024,7 @@
 "LV EF와 GLS",
 "LA volume index와 이완기 기능"
 ],
-"explanation": "우심부전 증상 → 우심계 평가 우선:\n• TR severity: VCW, EROA, hepatic vein flow\n• RV 크기: RVD1, RV/LV ratio\n• RV 기능: TAPSE, FAC, TDI S'\n• 폐동맥 압력 추정: TR jet velocity → RVSP = 4v² + RAP\n• IVC 크기와 respirophasic variation(RAP 추정)\n(2025 Right Heart in PH; 2017 Native Valvular Regurgitation, TR section)"
+"explanation": "우심부전 증상 → 우심계 평가 우선:\n• TR severity: VCW, EROA, hepatic vein flow\n• RV 크기: RVD1, RV/LV ratio\n• RV 기능: TAPSE, FAC, TDI S'\n• 폐동맥 압력 추정: TR jet velocity → RVSP = 4v² + RAP\n• IVC 크기와 respirophasic variation\n(2025 Right Heart in PH; 2017 Native Valvular Regurgitation, TR section)"
 },
 {
 "id": 80,
@@ -1037,7 +1037,7 @@
 "무증상이 대부분",
 "주로 흉통과 두근거림"
 ],
-"explanation": "Grade 3: E/A ≥2, deceleration time <160 ms, IVRT <50 ms → markedly elevated LAP. LAP 상승 → 폐정맥 울혈 → 운동 시 및 안정 시 호흡 곤란(orthopnea 포함). NYHA class III–IV에 해당하는 증상. Grade 3 diastolic dysfunction은 예후가 불량하다.\n(2025 LV Diastolic Update)"
+"explanation": "Grade 3: E/A ≥2, deceleration time <160 ms, IVRT <50 ms → markedly elevated LAP. LAP 상승 → 폐정맥 울혈 → 운동 시 및 안정 시 호흡 곤란(orthopnea 포함). NYHA class III–IV에 해당하는 증상.\n(2025 LV Diastolic Update)"
 },
 {
 "id": 81,
@@ -1050,7 +1050,7 @@
 "주로 운동 시 호흡 곤란만",
 "무증상 경과가 대부분"
 ],
-"explanation": "Severe TR + 우심부전 echo 소견 → 체혈관 울혈:\n• IVC plethora + hepatic vein flow 이상 → 간 울혈(간종대, 복부 불쾌감)\n• Dilated RA + IVC → 경정맥 확장(JVP 상승)\n• 우심부전 → 말초 부종, 복수\n• 심박출량 감소 → 피로감, 운동 내성 저하\n(2025 Right Heart in PH; 2017 Native Valvular Regurgitation, TR section)"
+"explanation": "Severe TR + 우심부전 echo 소견 → 체혈관 울혈:\n• IVC plethora + hepatic vein flow 이상 → 간 울혈\n• Dilated RA + IVC → 경정맥 확장(JVP 상승)\n• 우심부전 → 말초 부종, 복수\n• 심박출량 감소 → 피로감, 운동 내성 저하\n(2025 Right Heart in PH; 2017 Native Valvular Regurgitation, TR section)"
 },
 {
 "id": 82,
@@ -1069,7 +1069,7 @@
 "id": 83,
 "type": "G2",
 "category": "echo 소견 → 예상 증상",
-"question": "Asymptomatic severe primary MR에서 LVEF 55% + LVESD 42 mm이면 어떤 상황을 시사하는가?",
+"question": "Asymptomatic severe primary MR에서 LVEF 55% + LVESD 42 mm이 시사하는 것은?",
 "answer": "LVEF ≤60%, LVESD ≥40 mm → LV 보상 한계 신호(Stage C2), 수술 고려 대상",
 "distractors": [
 "추가 평가 없이 정기 추적만 하면 된다",
@@ -1089,7 +1089,7 @@
 "고령에서의 정상 변이이므로 특별한 조치가 필요 없다",
 "한 번 측정으로는 판단이 불가능하므로 3회 이상 반복 측정이 필요하다"
 ],
-"explanation": "2025 Strain Guideline: Abnormal GLS = less negative than −16%. 무증상이라도 기저 심근 기능 이상(허혈, 독성, 침윤 등)을 시사할 수 있다. 임상 맥락(고혈압, 당뇨, 항암 치료 이력 등)과 함께 평가하고 원인 감별을 위한 추가 검사를 고려해야 한다.\n(2025 Strain Guideline, Clinical Consensus Statements)"
+"explanation": "2025 Strain Guideline: Abnormal GLS = less negative than −16%. 무증상이라도 기저 심근 기능 이상(허혈, 독성, 침윤 등)을 시사할 수 있다. 임상 맥락과 함께 평가하고 원인 감별을 위한 추가 검사를 고려해야 한다.\n(2025 Strain Guideline, Clinical Consensus Statements)"
 },
 {
 "id": 85,
@@ -1111,7 +1111,7 @@
 "question": "무증상 환자에서 peak TR velocity 3.0 m/s가 발견되면 어떻게 해석해야 하는가?",
 "answer": "PH 가능성 있으나 adjunctive 소견 확인 후 필요 시 right heart catheterization 의뢰",
 "distractors": [
-"정상 소견으로 추가 평가가 필요하지 않다",
+"정상 소견으로 추가 평가가 필요 없다",
 "TR velocity 단독으로 즉시 right heart catheterization이 필요하다",
 "항상 severe TR을 의미하므로 판막 수술을 고려해야 한다"
 ],
@@ -1154,7 +1154,7 @@
 "LV 이완기 기능 회복 가능성을 평가하기 위해",
 "폐동맥 압력의 변화를 평가하기 위해"
 ],
-"explanation": "Low-flow, low-gradient AS + LVEF 감소에서:\n• True severe: AVA <1.0 cm² 유지 + gradient 상승(≥40 mmHg)\n• Pseudo-severe: AVA가 ≥1.0 cm²로 증가\n• Low contractile reserve(SV 증가 <20%): 예후 불량, true/pseudo 감별 어려움.\n이 검사로 true severe AS가 확인되면 수술적 치료를 고려한다.\n(2017 AS Focused Update, Low Gradient AS Track)"
+"explanation": "Low-flow, low-gradient AS + LVEF 감소에서:\n• True severe: AVA <1.0 cm² 유지 + gradient 상승(≥40 mmHg)\n• Pseudo-severe: AVA가 ≥1.0 cm²로 증가\n• Low contractile reserve(SV 증가 <20%): 예후 불량\n이 검사로 true severe AS가 확인되면 수술적 치료를 고려한다.\n(2017 AS Focused Update, Low Gradient AS Track)"
 },
 {
 "id": 90,
@@ -1167,7 +1167,7 @@
 "운동 후 심박수가 100 bpm을 초과",
 "운동 후 e' velocity가 기저치 대비 감소"
 ],
-"explanation": "2025 LV Diastolic Update §13.C: 운동 후 측정:\n• Definitely abnormal: average E/e' ≥14(또는 septal E/e' ≥15) + peak TR velocity >3.2 m/s\n• Normal: average E/e' <10 + peak TR velocity <2.8 m/s\n• Isolated TR velocity 증가만으로 HFpEF 진단 안 됨(정상인도 증가 가능)\n(2025 LV Diastolic Update §13.C)"
+"explanation": "2025 LV Diastolic Update §13.C: 운동 후 측정:\n• Definitely abnormal: average E/e' ≥14(또는 septal E/e' ≥15) + peak TR velocity >3.2 m/s\n• Normal: average E/e' <10 + peak TR velocity <2.8 m/s\n• Isolated TR velocity 증가만으로 HFpEF 진단 안 됨\n(2025 LV Diastolic Update §13.C)"
 },
 {
 "id": 91,
@@ -1186,21 +1186,21 @@
 "id": 92,
 "type": "H2",
 "category": "CMR/CT 적응증",
-"question": "AS 환자에서 CT calcium scoring이 유용한 상황은?",
-"answer": "Low-gradient AS에서 true severe 여부 판단 시 보조 도구로",
+"question": "Low-gradient AS에서 CT calcium scoring이 유용한 이유는?",
+"answer": "유량에 독립적으로 판막 협착의 해부학적 중증도를 간접 평가할 수 있기 때문",
 "distractors": [
-"모든 AS 환자에서 routine으로",
-"TAVI 계획 시에만 사용",
-"MRI가 불가능한 환자에서 대체 검사로"
+"모든 AS 환자에서 AVA 계산 없이 severity를 판단할 수 있기 때문",
+"TAVI 크기 선택에 필요한 annulus 측정이 가능하기 때문",
+"MRI보다 저렴하고 빠르기 때문"
 ],
-"explanation": "CT calcium score: low-gradient AS(AVA <1.0 cm² + gradient <40 mmHg)에서 true severe AS 가능성 평가 보조 도구.\n• Men: ≥2000 AU → likely severe, ≥3000 AU → very likely severe\n• Women: ≥1200 AU → likely severe, ≥1600 AU → very likely severe\n낮은 점수는 severe AS를 매우 낮게 한다.\n(2017 AS Focused Update, Table 5)"
+"explanation": "CT calcium score: low-gradient AS(AVA <1.0 cm² + gradient <40 mmHg)에서 true severe AS 가능성 평가 보조 도구.\n• Men: ≥2000 AU → likely severe, ≥3000 AU → very likely severe\n• Women: ≥1200 AU → likely severe, ≥1600 AU → very likely severe\n유량과 독립적으로 판막 석회화 부담을 직접 반영하기 때문에 유용하다.\n(2017 AS Focused Update, Table 5)"
 },
 {
 "id": 93,
 "type": "H2",
 "category": "CMR/CT 적응증",
 "question": "심부전 환자에서 CMR이 echo보다 유리한 상황은?",
-"answer": "심근 섬유화(LGE), 심근 염증, scar 범위, RV 용적/EF 정확한 평가가 필요한 경우",
+"answer": "심근 섬유화(LGE), scar 범위, RV 용적/EF 정확한 평가가 필요한 경우",
 "distractors": [
 "이완기 기능 등급을 정확히 평가해야 하는 경우",
 "모든 심부전 환자에서 echo 대신 사용",
@@ -1213,7 +1213,7 @@
 "type": "H2",
 "category": "CMR/CT 적응증",
 "question": "TAVI 전 CT가 반드시 필요한 이유는?",
-"answer": "대동맥 annulus 크기, LVOT 형태, coronary 거리, vascular access를 3D로 평가하기 때문",
+"answer": "대동맥 annulus 3D 크기, LVOT 형태, coronary 거리, vascular access를 동시에 평가하기 때문",
 "distractors": [
 "radiation이 없어 안전하기 때문",
 "echo보다 더 빠르고 저렴하기 때문",
@@ -1226,7 +1226,7 @@
 "type": "H3",
 "category": "TEE 적응증",
 "question": "PBMV 전 반드시 TEE가 필요한 이유는?",
-"answer": "LAA(좌심방이) 혈전을 배제하기 위해",
+"answer": "TTE로는 배제하기 어려운 LAA(좌심방이) 혈전을 배제하기 위해",
 "distractors": [
 "MVA를 더 정확히 측정하기 위해",
 "Wilkins score를 계산하기 위해",
@@ -1252,13 +1252,13 @@
 "type": "H3",
 "category": "TEE 적응증",
 "question": "인공판막 환자에서 TTE 음성이어도 TEE가 필요한 상황은?",
-"answer": "임상적으로 인공판막 기능이상이 의심되나 TTE가 acoustic shadowing으로 제한되는 경우",
+"answer": "임상적으로 기능이상이 의심되나 acoustic shadowing으로 TTE가 제한되는 경우",
 "distractors": [
 "수술 후 정기 추적 시 routine으로",
 "수술 후 1년이 경과한 경우",
 "판막 종류와 무관하게 모든 인공판막에서 항상"
 ],
-"explanation": "인공판막: TTE의 acoustic shadowing/reverberation으로 판막 구조물, 판막 뒤쪽 구조(abscess, vegetation, PVL)가 잘 보이지 않을 때 TEE가 필수. 임상 상황: 새로운 발열, 색전증, 기능이상 의심 시 TEE.\n(2024 Prosthetic Valve)"
+"explanation": "인공판막: TTE의 acoustic shadowing/reverberation으로 판막 구조물, 판막 뒤쪽 구조(abscess, vegetation, PVL)가 잘 보이지 않을 때 TEE가 필수.\n임상 상황: 새로운 발열, 색전증, 기능이상 의심 시 TEE.\n(2024 Prosthetic Valve)"
 },
 {
 "id": 98,
@@ -1278,7 +1278,7 @@
 "type": "H4",
 "category": "시술 전후 echo 역할",
 "question": "TAVI 후 paravalvular leak(PVL) 중증도를 평가하는 방법은?",
-"answer": "VCW, PVL jet 위치, circumferential extent(<10% mild, 10–29% moderate, ≥30% severe)로 평가",
+"answer": "VCW, PVL jet 위치, circumferential extent로 평가한다",
 "distractors": [
 "TR velocity만으로 간접 평가한다",
 "PHT로 판막 면적을 계산하여 역류를 추정한다",
@@ -1291,11 +1291,11 @@
 "type": "H4",
 "category": "시술 전후 echo 역할",
 "question": "Prosthetic aortic valve에서 DVI(Doppler velocity index)가 <0.25로 감소했을 때 의미는?",
-"answer": "판막 폐쇄(obstruction) 가능성 시사",
+"answer": "판막 폐쇄(obstruction) 가능성을 시사한다",
 "distractors": [
-"정상 판막 기능",
-"판막 역류가 심해진 것",
-"기술적 측정 오류 가능성"
+"정상 판막 기능을 나타낸다",
+"판막 역류가 심해진 것을 나타낸다",
+"기술적 측정 오류 가능성을 시사한다"
 ],
 "explanation": "DVI_PrAV = VTI_LVOT / VTI_PrAV. 정상 SAVR: DVI >0.35. DVI <0.25 → significant stenosis 시사.\nDVI가 기저치에서 ≥0.2 또는 ≥40% 감소해도 TAVI 후 유의한 변화.\nDVI는 LVOT diameter 측정 오류의 영향을 받지 않아 flow-independent index로 유용.\n(2024 Prosthetic Valve, Table 5)"
 }

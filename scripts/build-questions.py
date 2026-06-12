@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""echo_quiz_100.xlsx → questions.json 변환 스크립트.
+"""echo_quiz_100_v2.xlsx → questions.json 변환 스크립트.
 
 사용법:
-    python3 scripts/build-questions.py ../echo_quiz_100.xlsx questions.json
+    python3 scripts/build-questions.py ../echo_quiz_100_v2.xlsx questions.json
 
 요구사항: openpyxl (pip install openpyxl)
 """
@@ -41,6 +41,6 @@ def main(src: str, dst: str) -> None:
 
 
 if __name__ == "__main__":
-    src = sys.argv[1] if len(sys.argv) > 1 else "../echo_quiz_100.xlsx"
+    src = sys.argv[1] if len(sys.argv) > 1 else "../echo_quiz_100_v2.xlsx"
     dst = sys.argv[2] if len(sys.argv) > 2 else "questions.json"
     main(src, dst)
