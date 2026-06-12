@@ -118,7 +118,7 @@ function renderQuestion() {
         <span>Q ${g.index + 1} / ${QUESTIONS_PER_GAME} · <span class="score">${g.score}점</span></span>
       </div>
       <div class="bar"><i style="width:${pct}%"></i></div>
-      <span class="cat">${esc(q.type)} · ${esc(q.category)}</span>
+      <span class="cat">${esc(q.category)}</span>
       <div class="q">${esc(q.question)}</div>
       <div class="choices" id="choices">
         ${choices.map((c, i) => `
