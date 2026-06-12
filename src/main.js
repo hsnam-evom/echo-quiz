@@ -57,6 +57,14 @@ function syncMuteBtn() {
 document.getElementById('mute').addEventListener('click', () => { sound.toggle(); syncMuteBtn(); });
 syncMuteBtn();
 
+// 홈 버튼 — 언제든 시작 화면으로 (진행 중이면 확인)
+document.getElementById('home').addEventListener('click', () => {
+  const inProgress = state.game && state.game.results.length < QUESTIONS_PER_GAME;
+  if (inProgress && !confirm('진행 중인 게임을 그만두고 홈으로 갈까요?')) return;
+  sound.click();
+  renderStart(state.nickname);
+});
+
 // ---------- screens ----------
 function renderStart(prefill = '') {
   state.game = null; state.view = null;
@@ -271,10 +279,11 @@ async function renderLeaderboard(from) {
   let highlighted = false;
   body.innerHTML = data.top.map((row, idx) => {
     const rank = idx + 1;
+    const medal = rank === 1 ? '🥇' : rank === 2 ? '🥈' : rank === 3 ? '🥉' : rank;
     const me = !highlighted && row.name === state.nickname && row.score === (state.game ? state.game.score : -1);
     if (me) highlighted = true;
     return `<div class="lb-row rk${rank} ${me ? 'me' : ''}">
-      <span class="rk">${rank}</span>
+      <span class="rk">${medal}</span>
       <span class="nm">${esc(row.name)}</span>
       <span class="sc">${row.score}점</span>
     </div>`;
