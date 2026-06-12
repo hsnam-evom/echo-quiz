@@ -4,21 +4,20 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
   <title>에코 퀴-즈 · ECHO QUIZ</title>
-  <meta name="description" content="심초음파 임상 지식을 겨루는 레트로 퀴즈. 닉네임 입력하고 10문제에 도전하세요." />
+  <meta name="description" content="심초음파 임상 지식을 겨루는 퀴즈. 닉네임 입력하고 10문제에 도전하세요." />
   <meta property="og:title" content="에코 퀴-즈 · ECHO QUIZ" />
-  <meta property="og:description" content="심초음파 임상 지식 레트로 퀴즈. 당신의 혈류는 뇌까지 도달할까요?" />
+  <meta property="og:description" content="심초음파 임상 지식 퀴즈. 당신의 혈류는 뇌까지 도달할까요?" />
+  <meta name="theme-color" content="#6366f1" />
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🫀</text></svg>" />
   <link rel="preconnect" href="https://cdn.jsdelivr.net" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/quiple/galmuri/dist/Galmuri11.css" />
-  <link rel="stylesheet" href="/styles/retro.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+  <link rel="stylesheet" href="/styles/app.css" />
 </head>
 <body>
-  <div class="crt">
-    <div class="scanlines" aria-hidden="true"></div>
-    <div class="vignette" aria-hidden="true"></div>
+  <div class="shell">
     <button id="mute" class="mute" type="button" title="소리 켜기/끄기" aria-label="소리 토글">🔊</button>
     <main id="app" class="app"><!-- screens render here --></main>
-    <footer class="foot">ECHO QUIZ · 심초음파 100문항 · 교육용</footer>
+    <footer class="foot">ECHO QUIZ · 심초음파 100문항 · 교육용 콘텐츠</footer>
   </div>
   <script type="module" src="/src/main.js"></script>
 </body>

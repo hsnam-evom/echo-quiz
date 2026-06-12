@@ -43,10 +43,10 @@ const sound = (() => {
   return {
     toggle() { muted = !muted; localStorage.setItem('echo:muted', muted ? '1' : '0'); return muted; },
     isMuted: () => muted,
-    click() { if (!muted) beep(440, 0, 0.05, 'square', 0.03); },
-    correct() { if (muted) return; beep(660, 0, 0.08); beep(880, 0.08, 0.12); },
-    wrong() { if (muted) return; beep(180, 0, 0.18, 'sawtooth', 0.06); },
-    clear() { if (muted) return; [523, 659, 784, 1047].forEach((f, i) => beep(f, i * 0.1, 0.14, 'square', 0.05)); },
+    click() { if (!muted) beep(523, 0, 0.06, 'sine', 0.035); },
+    correct() { if (muted) return; beep(659, 0, 0.09, 'sine', 0.06); beep(988, 0.09, 0.14, 'sine', 0.06); },
+    wrong() { if (muted) return; beep(196, 0, 0.2, 'triangle', 0.06); },
+    clear() { if (muted) return; [523, 659, 784, 1047].forEach((f, i) => beep(f, i * 0.1, 0.16, 'sine', 0.055)); },
   };
 })();
 
